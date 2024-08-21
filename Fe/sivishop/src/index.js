@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import HomePage from './pages/user/homePage';
 import { BrowserRouter } from 'react-router-dom';
 import RouterCustom from './router';
-
+import "./style/style.scss";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
